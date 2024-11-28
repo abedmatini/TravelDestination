@@ -4,12 +4,11 @@ import React, { useState } from 'react';
 
 
 
-
 const ContactUsScreen = () => {
 
   const [name, setName] = useState('');
-const [email, setEmail] = useState('');
-const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleContact = () => {
     if(name && email && message) {
